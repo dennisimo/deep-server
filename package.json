@@ -1,6 +1,6 @@
 {
   "name": "deep-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create Deep Servers so people can connect to your local apps.",
   "main": "index.js",
   "directories": {
