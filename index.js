@@ -19,7 +19,7 @@ module.exports = (function () {
 
   function createServer (config) {
     var address = getAddress()
-    config = config ? JSON.parse(config) : isValid(JSON.parse(fs.readFileSync(configFile, 'utf-8')))
+    config = config ? JSON.parse(config) : isValid(JSON.parse(fs.readFileSync('deep.json', 'utf-8')))
     if (config && address) {
       http.createServer(function (req, res) {
         res.setHeader('Content-Type', 'application/json')
